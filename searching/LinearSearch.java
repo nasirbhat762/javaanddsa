@@ -12,7 +12,6 @@ class LinearSearch {
             if (num == arr[i]) {
                 System.out.println("element found at index " + i);
                 elementFound = true;
-
             } 
         }
 
