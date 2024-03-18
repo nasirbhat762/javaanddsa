@@ -4,7 +4,7 @@ public class LL2 {
     public static void main(String[] args) {
         LinkedList<String> list = new LinkedList<String>();
         // five main default functions
-        // 1. addFirst()
+        // 1.addFirst()
         // 2.addLast()
         // 3.removeFirst()
         // 4.removeLast()
@@ -27,5 +27,8 @@ public class LL2 {
             System.out.print(list.get(i) + " -> ");
         }
         System.out.print("null");
+
+        // remove at particular index 
+        // list.remove(index);
     }
 }
