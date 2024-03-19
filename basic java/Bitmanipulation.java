@@ -23,7 +23,7 @@ public class Bitmanipulation {
         // System.out.println(newNum);
 
         // CLEAR BIT OPERATION
-        // for set bit operation we first use binary NOT(~) on bitmask then perform
+        // for clear bit operation we first use binary NOT(~) on bitmask then perform
         // binary AND with the given number
         // int num = 5; // binary 0101
         // int pos = 2;
@@ -42,7 +42,7 @@ public class Bitmanipulation {
         // System.out.println("enter 1 to set and 0 to clear");
         // int operation = sc.nextInt();
         // if (operation == 1) {
-        // int newNum = bitMask | num; // 0101 | 0100 = 0101
+        // int newNum = bitMask | num; // 0101 |0100 = 0101
         // System.out.println(newNum); // prints 5 in decimal
         // } else {
         // int notBitMask = ~(bitMask); // 1011
@@ -53,3 +53,4 @@ public class Bitmanipulation {
 
     }
 }
+ 

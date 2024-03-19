@@ -18,16 +18,17 @@ public class IsAscending {
         boolean isAscending = true;
 
         for (int i = 0; i < numbers.length - 1; i++) {
-            if (numbers[i] < numbers[i + 1]) {
+            if (numbers[i] >= numbers[i + 1]) {
 
                 isAscending = false;
+                break;
             }
         }
 
         if (isAscending) {
-            System.out.println("array is ascending order");
-        } else{
-            System.out.println("array is not asceding order order");
+            System.out.println("array is  in ascending order");
+        } else {
+            System.out.println("array is not  in ascending order");
         }
     }
 }

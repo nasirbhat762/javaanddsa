@@ -28,3 +28,6 @@ class BubbleSort {
 
     }
 }
+
+// time complexity of bubble sort is O(n^2) for worst case and O(n) for average case (very rare) and best case
+// space complexity is O(1)
