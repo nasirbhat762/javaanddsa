@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Stacks {
 
-    public void push(ArrayList stack, String data) {
+    public  void push(ArrayList stack, String data) {
         stack.add(data);
     }
 
